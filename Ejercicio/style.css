@@ -32,5 +32,53 @@ body {
         bottom: 100px;
     }
 }
-    
+   
+.montañas {
+    position: absolute;
+    z-index: 6;
+}
+
+.nube {
+    position: absolute;
+    z-index: 1;
+}
+
+/* {} */
+.uno {
+/* animation:
+nube1 8.5s linear */ ;
+}
+
+    @keyframes nube1 {
+    to {
+      transform: translateX(700px);
+    }
+  }
+
   
+.dos {
+animation:
+nube2 8.5s linear ;
+}
+    
+ @keyframes nube2 {
+    to {
+        transform: translateX(700px);
+     }
+    }
+
+
+
+.tres {
+    animation:
+    nube3 8.5s linear ;
+    }
+            
+    @keyframes nube3 {
+     to {
+        transform: translateX(-700px);
+     }
+    }
+        
+        
+        
