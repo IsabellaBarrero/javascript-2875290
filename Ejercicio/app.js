@@ -1,30 +1,24 @@
-/* const fondo = document.querySelector('.container');
-const sol = document.querySelector('.sol');
-const nube1 = document.querySelector('.uno');
-const nube2 = document.querySelector('.dos');
-const nube3 = document.querySelector('.tres')
 
-
-function noche (){
-    fondo.style.backgroundColor = 'blue'
-    sol.style.backgroundColor = 'white'
-}
-
-
-fondo.addEventListener('click', noche); */
 const fondo = document.querySelector('.container');
 const solGuia = document.querySelector('.guia');
 const sol = document.querySelector('.sol');
 const nube1 = document.querySelector('.uno');
 const nube2 = document.querySelector('.dos');
 const nube3 = document.querySelector('.tres')
+let e = 0;
 
-
-
-function noche (){
-    fondo.style.backgroundColor = 'blue'
-    sol.style.backgroundColor = 'white'
+function noche(){
+if(e==0){
+    fondo.style.backgroundColor = 'black';
+    sol.style.backgroundColor = 'white';
+    e = 1
+}else {
+    fondo.style.backgroundColor = 'white';
+    sol.style.backgroundColor = 'rgb(241, 212, 45)'
+    e = 0
 }
+}
+
 
 function moverSol(){
     sol.style.animation = "move 6s linear";
@@ -39,7 +33,6 @@ function moverNube(){
 
 
 
-
-fondo.addEventListener('click', noche);
+fondo.addEventListener('click', noche)
 solGuia.addEventListener('click', moverSol);
 nube1.addEventListener('click', moverNube);
