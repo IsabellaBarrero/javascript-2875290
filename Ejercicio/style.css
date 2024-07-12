@@ -35,7 +35,7 @@ body {
    
 .montañas {
     position: absolute;
-    z-index: 6;
+    z-index: 4;
 }
 
 .nube {
@@ -45,8 +45,8 @@ body {
 
 /* {} */
 .uno {
-/* animation:
-nube1 8.5s linear */ ;
+animation:
+nube1 8.5s linear ;
 }
 
     @keyframes nube1 {
