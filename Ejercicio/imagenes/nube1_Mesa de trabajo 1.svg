@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 400">
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 91.7 67.7">
   <defs>
     <style>
       .cls-1 {
@@ -8,7 +8,7 @@
       }
     </style>
   </defs>
-  <ellipse class="cls-1" cx="94.71" cy="117.87" rx="17.71" ry="18.72"/>
-  <ellipse class="cls-1" cx="113.57" cy="96.74" rx="18.29" ry="21.74"/>
-  <ellipse class="cls-1" cx="131.86" cy="120.28" rx="33.14" ry="18.72"/>
+  <ellipse class="cls-1" cx="19.4" cy="44.7" rx="17.7" ry="18.7"/>
+  <ellipse class="cls-1" cx="38.2" cy="23.6" rx="18.3" ry="21.7"/>
+  <ellipse class="cls-1" cx="56.5" cy="47.1" rx="33.1" ry="18.7"/>
 </svg>

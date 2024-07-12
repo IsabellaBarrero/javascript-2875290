@@ -1,5 +1,6 @@
 body {
     background-color: black
+
 }
 
 .container {
@@ -19,8 +20,17 @@ body {
     position: absolute;
     bottom: 100px;
     right: 150px;
-    animation:
-    move 6s linear
+    /* animation:
+    move 6s linear */
+
+}
+
+
+.guia {
+    z-index: 6;
+    background-color: transparent;
+    cursor: pointer;
+
 }
 
 @keyframes move {
@@ -36,6 +46,8 @@ body {
 .montañas {
     position: absolute;
     z-index: 4;
+    width: 700px;
+    top: 180px;
 }
 
 .nube {
@@ -45,8 +57,12 @@ body {
 
 /* {} */
 .uno {
-animation:
-nube1 8.5s linear ;
+position: absolute;
+width: 100px;
+left: 100px;
+top: 100px;
+/* animation:
+nube1 8.5s linear ; */
 }
 
     @keyframes nube1 {
@@ -57,8 +73,12 @@ nube1 8.5s linear ;
 
   
 .dos {
-animation:
-nube2 8.5s linear ;
+position: absolute;
+width: 100px;
+left: 300px;
+top: 50px;
+/* animation:
+nube2 8.5s linear ; */
 }
     
  @keyframes nube2 {
@@ -70,8 +90,12 @@ nube2 8.5s linear ;
 
 
 .tres {
-    animation:
-    nube3 8.5s linear ;
+    position:absolute;
+    width: 100px;
+    top: 100px;
+    right: 100px;
+   /*  animation:
+    nube3 8.5s linear ; */
     }
             
     @keyframes nube3 {

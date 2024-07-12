@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 400">
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 700 242">
   <defs>
     <style>
       .cls-1 {
@@ -25,9 +25,9 @@
       }
     </style>
   </defs>
-  <path class="cls-1" d="M8.71,498.9"/>
-  <polygon class="cls-4" points="455.1 205.5 316.7 400 593.5 400 455.1 205.5"/>
-  <polygon class="cls-2" points="139.1 205 .7 399.5 277.5 399.5 139.1 205"/>
-  <polygon class="cls-2" points="561.1 205 422.7 399.5 699.5 399.5 561.1 205"/>
-  <polygon class="cls-3" points="308.5 160 133.5 400 483.5 400 308.5 160"/>
+  <path class="cls-1" d="M8.7,340.9"/>
+  <polygon class="cls-4" points="455.1 47.5 316.7 242 593.5 242 455.1 47.5"/>
+  <polygon class="cls-2" points="139.1 47 .7 241.5 277.5 241.5 139.1 47"/>
+  <polygon class="cls-2" points="561.1 47 422.7 241.5 699.5 241.5 561.1 47"/>
+  <polygon class="cls-3" points="308.5 2 133.5 242 483.5 242 308.5 2"/>
 </svg>
