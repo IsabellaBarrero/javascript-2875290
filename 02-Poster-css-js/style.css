@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 250px auto;
+    width: 700px;
+    height: 400px;
+    background-color: #666666;
+    overflow: hidden;
+    position: relative;
+}
+
+.leon {
+    position: absolute;
+    left: 430px;
+    top: 30px;
+}
+
+.matilda {
+    position: absolute;
+    left: 295px;
+    top: 120px;
+    z-index: 1;
+}
+
+.planta {
+    position: absolute;
+    top: 235px;
+    left: 480px;
+    z-index: 1;
+}
+
+.texto1 {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+
+}
+
+.texto2 {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+.arma {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+
+button {
+
+    align-items: center;
+}
