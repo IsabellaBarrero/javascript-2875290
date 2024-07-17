@@ -15,6 +15,16 @@ body {
     position: absolute;
     left: 430px;
     top: 30px;
+    /* animation:
+    moverleon 4.5s linear */
+}
+
+@keyframes moverleon {
+    0%{
+        left: 900px;
+    }100% {
+       left: 430px;
+    }
 }
 
 .matilda {
@@ -22,6 +32,16 @@ body {
     left: 295px;
     top: 120px;
     z-index: 1;
+    /* animation:
+    movermatilda 4s linear */
+}
+
+@keyframes movermatilda {
+    0%{
+        top: 700px;
+    }100% {
+       top: 120px;
+    }
 }
 
 .planta {
@@ -29,28 +49,87 @@ body {
     top: 235px;
     left: 480px;
     z-index: 1;
+    /* animation:
+    moverplanta 4s linear */
+}
+
+@keyframes moverplanta {
+    0%{
+        top: 700px;
+    }100% {
+       top: 235px;
+    }
 }
 
 .texto1 {
     position: absolute;
     top: 35px;
     left: 20px;
+    /* animation:
+    movertexto1 2s linear 0s,
+    rotartexto1 2.5s linear 3s; */
+    animation-composition: add;
 
 }
+
+@keyframes movertexto1 {
+    0%{
+       left: 700px;
+    }100% {
+       left: 20px;
+    }
+  }
+  
+  @keyframes rotartexto1 {
+    to {
+      transform: rotate(360deg) scale(1.0);
+    }
+  }
 
 .texto2 {
     position: absolute;
     top: 170px;
     left: 20px;
+    /* animation:
+    movertexto2 3s linear; */
+}
+
+@keyframes movertexto2 {
+    0%{
+        top: 1000px;
+    }100% {
+        top: 170px;
+    }
 }
 
 .arma {
     position: absolute;
     top: 180px;
     left: 0px;
+    /* animation:
+    moverarma 4s linear; */
 }
 
-button {
-
-    align-items: center;
+@keyframes moverarma {
+    0% {
+        top: 900px;
+    }100% {
+        top: 180px;
+    } 
 }
+
+.btn {
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    background-color: grey;
+    color: white;
+  }
+
+  .btn:hover {
+    background-color: red;
+    color: white;
+  }
