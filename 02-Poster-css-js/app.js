@@ -18,5 +18,4 @@ function play (){
 }
 
 
-
 boton.addEventListener('click', play)

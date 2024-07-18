@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxColores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 15px;
+    background-color: bisque;
+    border: none;
+}
+
+.boxColores select {
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.boxColores button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(235, 146, 14);
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    min-height: 500px;
+    margin: 30px auto 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.pelotica {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(59, 143, 143);
+    border: 2px solid black;
+}
