@@ -42,6 +42,7 @@ main {
 }
 
 .pelotica {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +51,21 @@ main {
     border-radius: 50%;
     background-color: rgb(59, 143, 143);
     border: 2px solid black;
+}
+
+.equis {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    top: -10px;
+    cursor: pointer;
 }
