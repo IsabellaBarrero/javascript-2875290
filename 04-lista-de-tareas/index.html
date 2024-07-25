@@ -3,27 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de tareas</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    
-    <div class="task-box">
-        <h2>LISTA DE TAREAS</h2>
-        <div id="taskList" class="task-list">
-            <!-- Aquí se generarán dinámicamente las tareas -->
-        </div>
-        <form id="taskForm" class="task-form">
-            <input type="text" id="taskInput" class="task-input" placeholder="Agregar nueva tarea...">
-            <button type="submit" class="task-button">+</button>
+
+    <div class="list roundBorder">
+        <form onsubmit="addNewTask(event)">
+            <input type="text" name="taskText" placeholder="Nueva tarea" class="roundBorder">
+            <button type="submit" class="addTaskButton">+</button>
+            <button type="button" class="deleteButton roundBorder" onclick="deleteTasks()">Eliminar Todo</button>
         </form>
+        <div id="taskContainer"></div>
     </div>
-
-
-
-
-    <script src="./app.js"></script>  
+    
+    
+    <script src="app.js"></script>
 </body>
 </html>

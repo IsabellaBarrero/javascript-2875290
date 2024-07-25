@@ -1,65 +1,75 @@
 body {
-    font-family: 'lato', sans-serif;
-    background-color: #c7c7c7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Lato', sans-serif;
     margin: 0;
-    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-color: rgb(163, 163, 163);
 }
 
-.task-box {
-    background-color: #458ea071;
-    width: 400px;
-    padding: 50px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+:first-letter {
+    text-transform: capitalize;
 }
-
-.task-box h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.task-list {
-    max-height: 300px;
-    overflow-y: auto;
-    padding-right: 10px; 
-}
-
-.task {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 8px;
-    background-color: #f9f9f9;
+ 
+.roundBorder {
     border-radius: 5px;
-    border: 1px solid #ccc;
 }
 
-.task input[type="checkbox"] {
-    margin-right: 10px;
+.list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: rgb(168, 182, 176);
+    width: 100%;
+    max-width: 350px;
+} 
+
+form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
 }
 
-.task-input {
-    width: 70%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-}
-
-.task-button {
-    padding: 10px 15px;
-    background-color: #ffffff;
-    color: #458ea0;
+input {
     border: none;
-    border-radius: 50%;
+    padding-left: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+input :focus {
+    outline: none;
+}
+
+.addTaskButton,
+.deleteButton {
+    border: none;
+    font-weight: bold;
     cursor: pointer;
 }
 
-.task-button:hover {
-    background-color: #458ea0;
-    color: #ffffff;
+.addTaskButton {
+    height: 35px;
+    border-radius:50%;
+    font-size: 18px;
+    background-color: rgb(59, 161, 156);
+    border: none;
+    color: white;
+}
+
+.deleteButton {
+    background-color:rgb(59, 161, 156);
+    color: white;
+}
+
+.task {
+    background-color:rgb(189, 206, 157);
+    padding: 15px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.done {
+    background-color: grey;
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
 }
