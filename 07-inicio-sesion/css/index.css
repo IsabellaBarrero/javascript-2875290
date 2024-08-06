@@ -5,5 +5,71 @@
 }
 
 body {
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/bateria-sobre-fondo-oscuro-iluminacion-escenica-copie-espacio_169016-13944.jpg?t=st=1722972317~exp=1722975917~hmac=f5f310f6195871ea65d8e84f639f58d00077cf5846ccfca693ee42a913e6d879&w=1380);
+    background-size: cover;
+    background-position: center;
+    font-family: fantasy;
+    color: white;
+    letter-spacing: 0.25em;
+} 
+
+.login-container {
+    background-color: rgba(95, 95, 95, 0.801);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(167, 167, 167);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: fantasy;
+    color: rgb(128, 128, 128);
+    letter-spacing: 0.25em;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    letter-spacing: 0.25em;
+}
+
+.registrar {
+    margin: 20px 0 10px;
+}
+.registrar p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
 }
