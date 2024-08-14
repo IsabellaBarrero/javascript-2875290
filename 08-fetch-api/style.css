@@ -1,21 +1,21 @@
 body {
-    background-color: #8f8f8f;
+    background-color: #2E2E2E;
     font-family: Arial, sans-serif;
     color: #FFFFFF;
 }
 .container {
     margin-top: 30px;
     column-count: 5;
-    column-gap: 20px;
+    column-gap: 15px;
     column-rule: #ffffff;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .card {
     display: flex;
-    background-color: #4a4c4dc2;
+    background-color: #3C3F41;
     border-radius: 8px;
     overflow: hidden;
     width: 450px;
