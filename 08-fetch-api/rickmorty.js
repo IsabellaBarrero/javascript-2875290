@@ -62,7 +62,7 @@ function filtrar(e) {
   container.innerHTML = ""
 
   if(listaStatus.value != "all"){
-    const filtro = results.filter(word => word.status == listaStatus.value).filter( word => word.name.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
+    const filtro = results.filter(musica => word.status == listaStatus.value).filter( word => word.name.toLowerCase().includes(textoBusqueda.value.toLowerCase()) );
     //textoBusqueda.value.toLowerCase() == word.name.toLowerCase()
 
     mostrarResults(filtro)
