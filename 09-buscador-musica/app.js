@@ -36,11 +36,8 @@ function filtrar(e){
 
     if(listaStatus.value !== "todo"){
         console.log(musica[0].genero)
-        filtro = musica.filter(musica => {
-            musica.genero.forEach(genero => {
-                return genero.toLowerCase() === listaStatus.value.toLowerCase
-            })
-        });
+        filtro = musica.filter(musica => musica.genero.toString().toLowerCase().includes(listaStatus.value.toLowerCase())).filter(musica => musica.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()));
+        mostrarResults(filtro)
     }else{
       if(textoBusqueda.value){
         filtro = filtro.filter(musica => musica.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()));
