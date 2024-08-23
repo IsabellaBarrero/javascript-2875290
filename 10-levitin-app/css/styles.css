@@ -4,7 +4,9 @@ body {
 }
 
 .header {
+    margin-right: 25px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
@@ -12,7 +14,7 @@ body {
     color: white;
 }
 
-img {
+img .logo {
     height: 70px;
 }
 
@@ -88,3 +90,82 @@ button:hover {
 .menu-desplegable :hover {
     display: block;
 }
+
+.img-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6D97A8;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.card-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 50px; 
+
+}
+
+.card-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 50px; 
+
+}
+
+.card {
+    width: 150px; 
+    height: 250px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.card-icon {
+    font-size: 24px;
+    text-align: center;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0; 
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px; 
+}
+
+.flecha {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 18px;
+}
+
+#Texto {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
